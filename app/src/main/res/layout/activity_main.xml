@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Enabling the app to be scrollable -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        tools:context="me.rayanalkhelaiwi.androidquiztester.MainActivity">
+
+        <!-- Beginning of Question 1 Layout -->
+        <TextView
+            android:id="@+id/q1Header"
+            style="@style/questionNumberHeader"
+            android:text="@string/q1Header" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/qone"
+                style="@style/imageViewStyle"
+                android:contentDescription="@string/q1ImageDescription"
+                android:src="@drawable/qone" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/q1content"
+            style="@style/questionContent"
+            android:text="@string/q1Content" />
+
+        <EditText
+            android:id="@+id/q1enterEditText"
+            style="@style/answerEditText"
+            android:hint="@string/q1enterHint" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/q1SubmitButton"
+                style="@style/submitButtonsStyle"
+                android:layout_marginTop="48dp"
+                android:onClick="q1Submit"
+                android:text="@string/q1SubmitButton" />
+        </RelativeLayout> <!-- End of Question 1 Layout -->
+
+        <!-- Beginning of Question 2 Layout -->
+        <TextView
+            android:id="@+id/q2Header"
+            style="@style/questionNumberHeader"
+            android:layout_marginTop="20dp"
+            android:text="@string/q2Header" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/qtwo"
+                style="@style/imageViewStyle"
+                android:contentDescription="@string/q2ImageDescription"
+                android:src="@drawable/qtwo" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/q2content"
+            style="@style/questionContent"
+            android:text="@string/q2Content" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q2option1"
+                style="@style/answerOptionsStyle"
+                android:text="@string/q2option1" />
+
+            <RadioButton
+                android:id="@+id/q2option2"
+                style="@style/answerOptionsStyle"
+                android:text="@string/q2option2" />
+
+            <RadioButton
+                android:id="@+id/q2option3"
+                style="@style/answerOptionsStyle"
+                android:text="@string/q2option3" />
+
+            <RadioButton
+                android:id="@+id/q2option4"
+                style="@style/answerOptionsStyle"
+                android:text="@string/q2option4" />
+        </RadioGroup>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/q2SubmitButton"
+                style="@style/submitButtonsStyle"
+                android:onClick="q2Submit"
+                android:text="@string/q2SubmitButton" />
+        </RelativeLayout> <!-- End of Question 2 Layout -->
+
+        <!-- Beginning of Question 3 Layout -->
+        <TextView
+            android:id="@+id/q3Header"
+            style="@style/questionNumberHeader"
+            android:layout_marginTop="20dp"
+            android:text="@string/q3Header" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/qthree"
+                style="@style/imageViewStyle"
+                android:contentDescription="@string/q3ImageDescription"
+                android:src="@drawable/qthree" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/q3content"
+            style="@style/questionContent"
+            android:text="@string/q3Content" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q3option1"
+                style="@style/answerOptionsStyle"
+                android:text="@string/q3option1" />
+
+            <RadioButton
+                android:id="@+id/q3option2"
+                style="@style/answerOptionsStyle"
+                android:text="@string/q3option2" />
+
+            <RadioButton
+                android:id="@+id/q3option3"
+                style="@style/answerOptionsStyle"
+                android:text="@string/q3option3" />
+
+            <RadioButton
+                android:id="@+id/q3option4"
+                style="@style/answerOptionsStyle"
+                android:text="@string/q3option4" />
+        </RadioGroup>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/q3SubmitButton"
+                style="@style/submitButtonsStyle"
+                android:onClick="q3Submit"
+                android:text="@string/q3SubmitButton" />
+        </RelativeLayout> <!-- End of Question 3 Layout -->
+
+        <!-- Beginning of Question 4 Layout -->
+        <TextView
+            android:id="@+id/q4Header"
+            style="@style/questionNumberHeader"
+            android:layout_marginTop="20dp"
+            android:text="@string/q4Header" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/qfour"
+                style="@style/imageViewStyle"
+                android:contentDescription="@string/q4ImageDescription"
+                android:src="@drawable/qfour" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/q4content"
+            style="@style/questionContent"
+            android:text="@string/q4Content" />
+
+        <CheckBox
+            android:id="@+id/q4option1cb"
+            style="@style/answerOptionsStyle"
+            android:text="@string/q4option1" />
+
+        <CheckBox
+            android:id="@+id/q4option2cb"
+            style="@style/answerOptionsStyle"
+            android:text="@string/q4option2" />
+
+        <CheckBox
+            android:id="@+id/q4option3cb"
+            style="@style/answerOptionsStyle"
+            android:text="@string/q4option3" />
+
+        <CheckBox
+            android:id="@+id/q4option4cb"
+            style="@style/answerOptionsStyle"
+            android:text="@string/q4option4" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/q4SubmitButton"
+                style="@style/submitButtonsStyle"
+                android:onClick="q4Submit"
+                android:text="@string/q4SubmitButton" />
+        </RelativeLayout> <!-- End of Question 4 Layout -->
+
+        <!-- Beginning of Question 5 Layout -->
+        <TextView
+            android:id="@+id/q5Header"
+            style="@style/questionNumberHeader"
+            android:layout_marginTop="20dp"
+            android:text="@string/q5Header" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/qfive"
+                style="@style/imageViewStyle"
+                android:contentDescription="@string/q5ImageDescription"
+                android:src="@drawable/qfive" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/q5content"
+            style="@style/questionContent"
+            android:text="@string/q5Content" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q5option1"
+                style="@style/answerOptionsStyle"
+                android:text="@string/q5option1" />
+
+            <RadioButton
+                android:id="@+id/q5option2"
+                style="@style/answerOptionsStyle"
+                android:text="@string/q5option2" />
+
+            <RadioButton
+                android:id="@+id/q5option3"
+                style="@style/answerOptionsStyle"
+                android:text="@string/q5option3" />
+
+            <RadioButton
+                android:id="@+id/q5option4"
+                style="@style/answerOptionsStyle"
+                android:text="@string/q5option4" />
+        </RadioGroup>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/q5SubmitButton"
+                style="@style/submitButtonsStyle"
+                android:onClick="q5Submit"
+                android:text="@string/q5SubmitButton" />
+        </RelativeLayout> <!-- End of Question 5 Layout -->
+
+        <!-- Beginning of Question 6 Layout -->
+        <TextView
+            android:id="@+id/q6Header"
+            style="@style/questionNumberHeader"
+            android:layout_marginTop="20dp"
+            android:text="@string/q6Header" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/qsix"
+                style="@style/imageViewStyle"
+                android:contentDescription="@string/q6ImageDescription"
+                android:src="@drawable/qsix" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/q6content"
+            style="@style/questionContent"
+            android:text="@string/q6Content" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q6option1"
+                style="@style/answerOptionsStyle"
+                android:text="@string/q6option1" />
+
+            <RadioButton
+                android:id="@+id/q6option2"
+                style="@style/answerOptionsStyle"
+                android:text="@string/q6option2" />
+
+            <RadioButton
+                android:id="@+id/q6option3"
+                style="@style/answerOptionsStyle"
+                android:text="@string/q6option3" />
+
+            <RadioButton
+                android:id="@+id/q6option4"
+                style="@style/answerOptionsStyle"
+                android:text="@string/q6option4" />
+        </RadioGroup>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/q6SubmitButton"
+                style="@style/submitButtonsStyle"
+                android:onClick="q6Submit"
+                android:text="@string/q6SubmitButton" />
+        </RelativeLayout> <!-- End of Question 6 Layout -->
+
+        <!-- Beginning of Question 7 Layout -->
+        <TextView
+            android:id="@+id/q7Header"
+            style="@style/questionNumberHeader"
+            android:layout_marginTop="20dp"
+            android:text="@string/q7Header" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/qseven"
+                style="@style/imageViewStyle"
+                android:contentDescription="@string/q7ImageDescription"
+                android:src="@drawable/qseven" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/q7content"
+            style="@style/questionContent"
+            android:text="@string/q7Content" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q7option1"
+                style="@style/answerOptionsStyle"
+                android:text="@string/q7option1" />
+
+            <RadioButton
+                android:id="@+id/q7option2"
+                style="@style/answerOptionsStyle"
+                android:text="@string/q7option2" />
+
+            <RadioButton
+                android:id="@+id/q7option3"
+                style="@style/answerOptionsStyle"
+                android:text="@string/q7option3" />
+
+            <RadioButton
+                android:id="@+id/q7option4"
+                style="@style/answerOptionsStyle"
+                android:text="@string/q7option4" />
+        </RadioGroup>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/q7SubmitButton"
+                style="@style/submitButtonsStyle"
+                android:layout_marginBottom="24dp"
+                android:onClick="q7Submit"
+                android:text="@string/q7SubmitButton" />
+
+            <TextView
+                android:id="@+id/displayPoints"
+                style="@style/pointsStyle"
+                android:layout_alignParentStart="true"
+                android:text="@string/dispalyPoints" />
+
+            <TextView
+                android:id="@+id/pointsValue"
+                style="@style/pointsStyle"
+                android:layout_toRightOf="@id/displayPoints"
+                android:text="@string/pointsValue" />
+
+        </RelativeLayout> <!-- End of Question 7 Layout -->
+    </LinearLayout>
+</ScrollView>

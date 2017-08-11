@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">AndroidQuizTester</string>
+
+    <!--String information for Question 1-->
+    <string name="q1Header">Question 1</string>
+    <string name="q1Content">Before selling out to Google, Android co-founder Andy Rubin tried to sell the operating system to:</string>
+    <string name="q1enterHint">Enter the answer</string>
+    <string name="q1ImageDescription">Google acquired Android Inc. in 2005.</string>
+    <string name="q1SubmitButton">Submit</string>
+
+    <!--String information for Question 2-->
+    <string name="q2Header">Question 2</string>
+    <string name="q2Content">How much did Google pay to acquire Android?</string>
+    <string name="q2option1">$1.5 Billions</string>
+    <string name="q2option2">$150 Millions</string>
+    <string name="q2option3">$50 Millions</string>
+    <string name="q2option4">$350 Millions</string>
+    <string name="q2ImageDescription">Android has earned Google, by 2016, around $31 billion since the mobile operating system’s inception</string>
+    <string name="q2SubmitButton">Submit</string>
+
+    <!--String information for Question 3-->
+    <string name="q3Header">Question 3</string>
+    <string name="q3Content">What is Andy Rubin\'s other interest beside Operating Systems?</string>
+    <string name="q3option1">Robots</string>
+    <string name="q3option2">Internet of Things</string>
+    <string name="q3option3">Data Science</string>
+    <string name="q3option4">Cloud Computing</string>
+    <string name="q3ImageDescription">Andy started a smart-phone startup and about reveal Essential phone, the company\'s first flagship phone</string>
+    <string name="q3SubmitButton">Submit</string>
+
+    <!--String information for Question 4-->
+    <string name="q4Header">Question 4</string>
+    <string name="q4Content">What version of Android is codenamed "Jelly Bean"?</string>
+    <string name="q4option1">Android 4.1</string>
+    <string name="q4option2">Android 4.2</string>
+    <string name="q4option3">Android 4.3</string>
+    <string name="q4option4">Android 4.4</string>
+    <string name="q4ImageDescription">Google is famous for its alphabetical naming of evey new version of Android after a sweet flavors </string>
+    <string name="q4SubmitButton">Submit</string>
+
+    <!--String information for Question 5-->
+    <string name="q5Header">Question 5</string>
+    <string name="q5Content">The first Android phone was the:</string>
+    <string name="q5option1">Google Nexus One</string>
+    <string name="q5option2">HTC EVO 4G</string>
+    <string name="q5option3">T-Mobile G1</string>
+    <string name="q5option4">Motorola Droid X</string>
+    <string name="q5ImageDescription">Initially, Android was first being developed in 2003</string>
+    <string name="q5SubmitButton">Submit</string>
+
+    <!--String information for Question 6-->
+    <string name="q6Header">Question 6</string>
+    <string name="q6Content">In which version of Android was multitasking introduced?</string>
+    <string name="q6option1">Android 1.0</string>
+    <string name="q6option2">Android 1.1</string>
+    <string name="q6option3">Android 1.5</string>
+    <string name="q6option4">Android 2.0</string>
+    <string name="q6ImageDescription">Android\'s number 1 feature is its mastery in multitasking</string>
+    <string name="q6SubmitButton">Submit</string>
+
+    <!--String information for Question 7-->
+    <string name="q7Header">Question 7</string>
+    <string name="q7Content">The first fully 64-bit-compatible version of Android is:</string>
+    <string name="q7option1">Kitkat, 4.4</string>
+    <string name="q7option2">Jelly-Bean, 4.1</string>
+    <string name="q7option3">Marshmallow, 6.0</string>
+    <string name="q7option4">Lollipop, 5.0</string>
+    <string name="q7ImageDescription">Since Android announced its support for 64-bit in 2014, 60-Hz support came as well</string>
+    <string name="q7SubmitButton">Submit</string>
+
+
+    <!--String information for the points (\u0020 is used to add a extra space at the end of the string)-->
+    <string name="dispalyPoints">Points:\u0020</string>
+    <string name="pointsValue">0</string>
+
+    <!--Toast messages-->
+    <string name="thinkAgain">Close! Think Again. :)</string>
+    <string name="correct1">Bingo! ;)</string>
+    <string name="correct2">Correct!</string>
+</resources>
