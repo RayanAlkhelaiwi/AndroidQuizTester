@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
     public void q1Submit(View view) {
 
         EditText editText = (EditText) findViewById(R.id.q1enterEditText);
-        String q1answer = editText.getText().toString();
+        String q1answer = editText.getText().toString().trim();
 
         //Nested if statements to check if the answer is correct or not, then to assign 2 points if it's correct.
         if (q1answer.toLowerCase().equals("samsung")) {
