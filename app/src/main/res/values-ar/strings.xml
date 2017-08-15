@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">اختبار معرفتك بالآندرويد</string>
+
+    <!--String information for Question 1-->
+    <string name="q1Header">السؤال الأول</string>
+    <string name="q1Content">قبل البيع لقوقل، مؤسس آندرويد آندي روبن حاول بيع النظام لمن؟</string>
+    <string name="q1enterHint">اكتب إجابتك هنا</string>
+    <string name="q1AnswerCheck1">سامسونج</string>
+    <string name="q1AnswerCheck2">سامسونق</string>
+    <string name="q1ImageDescription">قوقل استحوذت على نظام آندرويد في عام 2005</string>
+    <string name="q1SubmitButton">تسليم</string>
+
+    <!--String information for Question 2-->
+    <string name="q2Header">السؤال الثاني</string>
+    <string name="q2Content">كم دفعت قوقل للإستحواذ على آندرويد؟</string>
+    <string name="q2option1">1.5 مليار دولار</string>
+    <string name="q2option2">150 مليون دولار</string>
+    <string name="q2option3">50 مليون دولار</string>
+    <string name="q2option4">350 مليون دولار</string>
+    <string name="q2ImageDescription">نظام آندرويد أكسب قوقل، حتى عام 2016، أكثر من 31 مليار دولار منذ بداية حقبة الأجهزة الذكية</string>
+    <string name="q2SubmitButton">تسليم</string>
+
+    <!--String information for Question 3-->
+    <string name="q3Header">السؤال الثالث</string>
+    <string name="q3Content">ما هو اهتمام آندي روبن الآخر، بجانب اهتمامه بأنظمة التشغيل؟</string>
+    <string name="q3option1">الروبوتات</string>
+    <string name="q3option2">إنترنت الأشياء</string>
+    <string name="q3option3">علم البيانات</string>
+    <string name="q3option4">الحوسبة السحابية</string>
+    <string name="q3ImageDescription">آندي روبن بدأ شركة ناشئة، مختصة بالعتاد والأجهزة الذكية، وهو بصدد الكشف عن أول جهاز رائد للشركة، إسينشال</string>
+    <string name="q3SubmitButton">تسليم</string>
+
+    <!--String information for Question 4-->
+    <string name="q4Header">السؤال الرابع</string>
+    <string name="q4Content">أي من إصدارات آندرويد مرمّزة بالأسم (جيلي بين)؟</string>
+    <string name="q4option1">آندرويد 4.1</string>
+    <string name="q4option2">آندرويد 4.2</string>
+    <string name="q4option3">آندرويد 4.3</string>
+    <string name="q4option4">آندرويد 4.4</string>
+    <string name="q4ImageDescription">اشتهرت قوقل بتسمية كل نسخة من آندرويد باسم حلوى ومرتبة على أحرف الهجاء</string>
+    <string name="q4SubmitButton">تسليم</string>
+
+    <!--String information for Question 5-->
+    <string name="q5Header">السؤال الخامس</string>
+    <string name="q5Content">أول جهاز آندرويد ذكي هو:</string>
+    <string name="q5option1">قوقل نيكسوس 1</string>
+    <string name="q5option2">إش تي سي إيفو الجيل الرابع</string>
+    <string name="q5option3">تي موبيل جي 1</string>
+    <string name="q5option4">موتورولا درويد إكس</string>
+    <string name="q5ImageDescription">بدايةً، آندرويد ابتدأ في التطوير في عام 2003</string>
+    <string name="q5SubmitButton">تسليم</string>
+
+    <!--String information for Question 6-->
+    <string name="q6Header">السؤال السادس</string>
+    <string name="q6Content">في أي أصدار من آندرويد تم الإعلان عن دعم تعدد المهام؟</string>
+    <string name="q6option1">آندرويد 1.0</string>
+    <string name="q6option2">آندرويد 1.1</string>
+    <string name="q6option3">آندرويد 1.5</string>
+    <string name="q6option4">آندرويد 2.0</string>
+    <string name="q6ImageDescription">أقوى ميزة معروفة لدى آندرويد هي اتقانه لتعدد المهام</string>
+    <string name="q6SubmitButton">تسليم</string>
+
+    <!--String information for Question 7-->
+    <string name="q7Header">السؤال السابع</string>
+    <string name="q7Content">أول نسخة 64-بت من آندرويد تم الإعلان عنها هي:</string>
+    <string name="q7option1">كت كات، 4.4</string>
+    <string name="q7option2">جيلي بين، 4.1</string>
+    <string name="q7option3">مارشميلو، 6.0</string>
+    <string name="q7option4">لوليبوب، 5.0</string>
+    <string name="q7ImageDescription">عندما تم الإعلان عن تضمين آندرويد بتوافقية الـ64-بت، تم الإعلان عن دعمها للـ60-هيرتز أيضاً</string>
+    <string name="q7SubmitButton">تسليم</string>
+
+
+    <!--String information for the points (\u0020 is used to add a extra space at the end of the string)-->
+    <string name="dispalyPoints">النقاط:\u0020</string>
+    <string name="pointsValue">0</string>
+
+    <!--Toast messages-->
+    <string name="thinkAgain">لقد اقتربت! حاول مرة أخرى. :)</string>
+    <string name="correct1">ممتاز! ;)</string>
+    <string name="correct2">صحيح!</string>
+</resources>

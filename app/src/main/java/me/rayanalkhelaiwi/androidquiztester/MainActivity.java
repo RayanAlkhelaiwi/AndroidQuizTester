@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         String q1answer = editText.getText().toString().trim();
 
         //Nested if statements to check if the answer is correct or not, then to assign 2 points if it's correct.
-        if (q1answer.toLowerCase().equals("samsung")) {
+        if ((q1answer.toLowerCase().equals(getString(R.string.q1AnswerCheck1))) || (q1answer.toLowerCase().equals(getString(R.string.q1AnswerCheck2)))) {
             if (isNotAnsweredQ1) {
                 display(pointCounter += 2);
                 Toast.makeText(this, getString(R.string.correct1), Toast.LENGTH_SHORT).show();

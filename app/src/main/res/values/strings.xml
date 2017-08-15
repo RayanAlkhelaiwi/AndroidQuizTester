@@ -3,8 +3,10 @@
 
     <!--String information for Question 1-->
     <string name="q1Header">Question 1</string>
-    <string name="q1Content">Before selling out to Google, Android co-founder Andy Rubin tried to sell the operating system to:</string>
+    <string name="q1Content">Before selling out to Google, Android co-founder Andy Rubin tried to sell the operating system to whom?</string>
     <string name="q1enterHint">Enter the answer</string>
+    <string name="q1AnswerCheck1">samsung</string>
+    <string name="q1AnswerCheck2">samsung</string>
     <string name="q1ImageDescription">Google acquired Android Inc. in 2005.</string>
     <string name="q1SubmitButton">Submit</string>
 
