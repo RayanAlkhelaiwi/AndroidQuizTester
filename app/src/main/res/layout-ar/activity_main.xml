@@ -402,17 +402,18 @@
                 android:onClick="q7Submit"
                 android:text="@string/q7SubmitButton" />
 
-                <TextView
-                    android:id="@+id/displayPoints"
-                    style="@style/pointsStyle"
-                    android:text="@string/dispalyPoints" />
+            <TextView
+                android:id="@+id/displayPoints"
+                style="@style/pointsStyle"
+                android:layout_toLeftOf="@id/q7SubmitButton"
+                android:layout_marginStart="190dp"
+                android:text="@string/dispalyPoints" />
 
-                <TextView
-                    android:id="@+id/pointsValue"
-                    style="@style/pointsStyle"
-                    android:layout_toEndOf="@id/displayPoints"
-                    android:text="@string/pointsValue" />
-
+            <TextView
+                android:id="@+id/pointsValue"
+                style="@style/pointsStyle"
+                android:layout_toLeftOf="@id/displayPoints"
+                android:text="@string/pointsValue" />
         </RelativeLayout> <!-- End of Question 7 Layout -->
     </LinearLayout>
 </ScrollView>

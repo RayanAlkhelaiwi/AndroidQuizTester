@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">اختبار معرفتك بالآندرويد</string>
+    <string name="app_name">اختبر معرفتك بالآندرويد</string>
 
     <!--String information for Question 1-->
     <string name="q1Header">السؤال الأول</string>
